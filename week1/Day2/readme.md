@@ -31,9 +31,12 @@ Predict whether an individual earns >$50K/year using the Adult Census Income dat
 
 ## Quick Start
 
-```bash
+``bash
 # Install dependencies
 pip install pandas numpy scikit-learn matplotlib seaborn joblib
 
 # Run the script
 python AIP_Supervised_model.py
+
+Author
+Azka Ashfaq - AI and Data Science Intern
