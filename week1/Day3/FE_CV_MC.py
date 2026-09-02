@@ -459,11 +459,6 @@ JUSTIFICATION:
 3. F1 penalizes both false positives and false negatives equally
 4. Target for this week: F1 > 0.60
 
-Goal for upcoming days:
-- Day 2: Build ML models with proper preprocessing (F1 ~0.60)
-- Day 3: Feature engineering and cross-validation (F1 ~0.65)
-- Day 4: Hyperparameter tuning (F1 > 0.70)
-- Day 5: Final evaluation and interpretation
 """)
 
 # ============================================================================
