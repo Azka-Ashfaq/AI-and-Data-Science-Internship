@@ -86,8 +86,9 @@ The code produces the following visualization:
 ## 🚀 How to Run
 
 ### Prerequisites
-``bash
+```bash
 pip install pandas numpy scikit-learn matplotlib scipy
+```
 
 👩‍💻 Author
 Azka Ashfaq
