@@ -1,0 +1,11 @@
+age,workclass,education-num,hours-per-week,capital-gain,occupation,marital-status,sex,race,education,fnlwgt,capital-loss,relationship,native-country,prediction,probability,prediction_thresholded,income_class
+35,Private,13,45,5000,Prof-specialty,Married-civ-spouse,Male,White,Bachelors,200000,0,Husband,United-States,0,0.06200516679738715,0,<=50K
+50,Self-emp-inc,16,60,10000,Exec-managerial,Married-civ-spouse,Male,White,Doctorate,250000,0,Husband,United-States,1,0.9966781142508708,1,>50K
+22,Private,10,20,0,Other-service,Never-married,Female,Black,HS-grad,150000,0,Own-child,United-States,0,0.001297945811733124,0,<=50K
+45,Private,14,50,0,Adm-clerical,Married-civ-spouse,Female,White,Bachelors,180000,0,Wife,United-States,1,0.7847778645496616,1,>50K
+30,State-gov,12,40,0,Transport-moving,Never-married,Male,White,Some-college,120000,0,Own-child,United-States,0,0.01389112980074655,0,<=50K
+55,Private,9,30,0,Farming-fishing,Married-civ-spouse,Male,White,HS-grad,100000,0,Husband,United-States,0,0.11419388813225909,0,<=50K
+40,Self-emp-inc,18,55,20000,Prof-specialty,Married-civ-spouse,Male,White,Prof-school,300000,0,Husband,United-States,1,0.9984891794483098,1,>50K
+28,Private,11,38,0,Sales,Never-married,Female,Asian,Some-college,80000,0,Own-child,United-States,0,0.005444406742393299,0,<=50K
+60,State-gov,8,25,0,Other-service,Divorced,Female,White,HS-grad,90000,0,Not-in-family,United-States,0,0.011960206201427607,0,<=50K
+33,Private,15,48,3000,Exec-managerial,Married-civ-spouse,Male,White,Bachelors,220000,0,Husband,United-States,0,0.49530498197053063,1,>50K
