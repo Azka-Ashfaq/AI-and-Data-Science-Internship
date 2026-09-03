@@ -228,7 +228,3 @@ print(f"Probability: {probability:.2%}")
 
 **Azka Ashfaq**  
 AI and Data Science Intern
-
-
-
-This README is comprehensive, professional, and ready to showcase your Day 4 work! 🚀
