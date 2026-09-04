@@ -1,148 +1,107 @@
-# Adult Income Prediction — Day 1 README
+# Adult Income Prediction — Day 2 README
 
 ## 1. Objective
-Establish the problem, explore the Adult Census dataset, create reproducible
-train/dev/test splits, and build simple **baseline** predictors before any
-real machine learning model is trained. These baselines set the floor that
-Day 2+ models must beat.
+Move beyond Day 1's hand-written rule baselines and train real machine
+learning models — Logistic Regression and a Decision Tree — with a proper,
+reusable preprocessing pipeline, then compare them against the Day 1
+baselines on the same held-out test set.
 
-## 2. Business Objective & Success Metric
-Identify individuals likely to earn **>$50K/year** for targeted marketing
-outreach, so campaigns contact high-potential candidates efficiently.
-
-**Primary metric: F1-score** — balances Precision (avoid wasting outreach on
-unlikely candidates) against Recall (don't miss genuine high-income
-prospects). A missed high-income candidate (false negative) is a lost
-opportunity; contacting a low-income candidate (false positive) is wasted
-spend.
-
-**Stakeholder summary:** "We predict who earns over $50K to target marketing
-efficiently. Using F1-Score balances finding the right people while
-minimizing wasted outreach. We aim to improve from baseline F1 of 0.00 to
-above 0.60."
-
-## 3. Dataset
+## 2. Dataset
 - Source: `fetch_openml('adult', version=2, as_frame=True)`
-- **Shape:** 48,842 rows × 14 features
-- **Target:** `class`, converted to binary (`1` = `>50K`, `0` = `<=50K`)
-- **Class distribution:** `<=50K`: 37,155 (76.1%) · `>50K`: 11,687 (23.9%) —
-  base rate 0.239, i.e. moderately imbalanced
+- Shape: 48,842 rows × 15 columns (14 features + `income` target)
+- Target: `income`, converted to binary (`1` = `>50K`, `0` = `<=50K`)
+- Class distribution: `<=50K` 37,155 (76.1%) · `>50K` 11,687 (23.9%)
+- Missing values: `workclass` 2,799 · `occupation` 2,809 · `native-country` 857
+- Same stratified 80/20 split as Day 1, `random_state=42`: Train 39,073 rows /
+  Test 9,769 rows, both with a 0.239 positive rate — identical test set
+  reused across every day of the project
 
-**Missing values** (encoded as `'?'` in the raw data, converted to `NaN`):
+## 3. Preprocessing Pipeline
+A single `ColumnTransformer` handles all preprocessing, wrapped inside each
+model's own `Pipeline` so preprocessing is refit correctly per model and
+never leaks test-set information into training:
 
-| Column | Missing count |
+- **Numeric features** (`age`, `fnlwgt`, `education-num`, `capital-gain`,
+  `capital-loss`, `hours-per-week`): median imputation → `StandardScaler`
+- **Categorical features** (`workclass`, `education`, `marital-status`,
+  `occupation`, `relationship`, `race`, `sex`, `native-country`):
+  most-frequent imputation → `OneHotEncoder(handle_unknown='ignore')`
+
+## 4. Models Trained
+| Model | Key settings |
 |---|---|
-| `workclass` | 2,799 |
-| `occupation` | 2,809 |
-| `native-country` | 857 |
+| Logistic Regression | `solver='lbfgs'`, `max_iter=1000`, `class_weight='balanced'` (compensates for the 76%/24% class imbalance) |
+| Decision Tree | `max_depth=10`, `min_samples_split=100`, `min_samples_leaf=50` (all limit tree complexity to reduce overfitting) |
 
-**Key numeric feature summaries:**
-
-| Feature | Mean | Std | Min | Median | Max |
-|---|---|---|---|---|---|
-| age | 38.6 | 13.7 | 17 | 37 | 90 |
-| education-num | 10.1 | 2.6 | 1 | 10 | 16 |
-| capital-gain | 1,079.1 | 7,452.0 | 0 | 0 | 99,999 |
-| capital-loss | 87.5 | 403.0 | 0 | 0 | 4,356 |
-| hours-per-week | 40.4 | 12.4 | 1 | 40 | 99 |
-
-Capital-gain's huge std relative to its mean (and 75th percentile of 0)
-confirms it's extremely right-skewed — flagged below as something to fix.
-
-**Top categories** (by count): `workclass` is dominated by Private (33,906);
-`education` by HS-grad (15,784) and Some-college (10,878); `marital-status`
-by Married-civ-spouse (22,379) and Never-married (16,117).
-
-## 4. Data Splits
-Stratified splits with `random_state=42`, reused unchanged in every later
-day of the project:
-
-| Split | Size | Positive rate |
-|---|---|---|
-| Train | 39,073 (72%) | 0.239 |
-| Dev | 3,908 (8%) | 0.239 |
-| Test | 9,769 (20%) | 0.239 |
-
-Matching positive rates across all three splits confirm the stratification
-worked correctly. The test set is held out and untouched until final
-evaluation.
-
-**Why a holdout test set is necessary:** it simulates genuinely new data the
-model hasn't seen, gives an unbiased estimate of real-world performance, and
-prevents overfitting to the test set during tuning.
-
-## 5. Baseline Models & Results
-Three baselines were built and evaluated on the test set (see
-`baseline_results.csv`):
-
-| Model | Accuracy | Precision | Recall | F1-Score | ROC AUC | PR AUC |
+## 5. Results (test set)
+| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | PR-AUC |
 |---|---|---|---|---|---|---|
-| Majority Class | 0.7607 | 0.0000 | 0.0000 | 0.0000 | — | — |
-| Education Rule (education-num ≥ 13) | 0.7530 | 0.4844 | 0.4970 | 0.4906 | 0.6653 | 0.3611 |
-| **Advanced Rule** (education, capital-gain, or overtime + high-paying occupation) | 0.7439 | 0.4745 | 0.6527 | **0.5495** | 0.7126 | 0.3928 |
+| Baseline 1: Majority Class | 0.7607 | 0.0000 | 0.0000 | 0.0000 | — | — |
+| Baseline 2: Education Rule | 0.7530 | 0.4844 | 0.4970 | 0.4906 | — | — |
+| Baseline 3: Advanced Rule | 0.7439 | 0.4745 | 0.6527 | 0.5495 | — | — |
+| **Logistic Regression** | 0.8072 | 0.5651 | 0.8443 | **0.6771** | 0.9044 | 0.7619 |
+| Decision Tree | 0.8606 | 0.7742 | 0.5894 | 0.6693 | 0.9079 | 0.7826 |
 
-**Best baseline: Advanced Rule, F1 = 0.5495.** It outperforms the simpler
-education-only rule because it combines multiple meaningful signals
-(education, investment income, and overtime hours in high-paying
-occupations). The Majority Class predictor scores F1 = 0 because it never
-predicts the positive class at all, despite having the highest raw accuracy
-— a reminder that accuracy alone is misleading on an imbalanced dataset.
+**Best model by F1-score: Logistic Regression (F1 = 0.6771).**
 
-**Target for the week: F1 > 0.60**, roughly a 10% improvement over this best
-baseline.
+✅ **Goal achieved** — the Day 1 target of F1 > 0.60 was reached by both ML
+models, and both comfortably beat the best Day 1 baseline (Advanced Rule,
+F1 = 0.5495).
 
-## 6. Error Analysis (Advanced Rule, on the test set)
-- **Total predictions:** 9,769
-- **False Positives:** 1,690 (predicted `>50K`, actually `<=50K`)
-- **False Negatives:** 812 (predicted `<=50K`, actually `>50K`)
+**Reading the trade-off between the two models:** Logistic Regression has
+much higher recall (0.8443 vs. 0.5894) — it catches far more actual high
+earners — while the Decision Tree has much higher precision (0.7742 vs.
+0.5651) — when it predicts `>50K` it's right more often, but it misses more
+genuine high earners. Since the project's stated priority is not missing
+high-income prospects (a false negative is a lost opportunity), Logistic
+Regression's higher recall is why it wins on F1 despite the Decision Tree
+having a slightly higher ROC-AUC (0.9079 vs. 0.9044) and a much higher raw
+accuracy (0.8606 vs. 0.8072) — accuracy alone favors the tree because it's
+better at correctly predicting the majority `<=50K` class.
 
-**False Positive profile** (median across sampled rows, in
-`false_positives_sample.csv`): age 35, education-num 13, hours-per-week 40.
-These tend to be workers with solid education and full-time hours in roles
-like Exec-managerial or Prof-specialty whose actual income still fell at or
-below $50K that year — the rule over-trusts education/occupation alone.
+## 6. Model Analysis
 
-**False Negative profile** (median, in `false_negatives_sample.csv`): age
-50, education-num 10, hours-per-week 40. These tend to be older workers in
-occupations the rule doesn't recognize as "high-paying" (e.g.
-Protective-serv, Transport-moving, Handlers-cleaners) despite full-time
-hours — real high earners the rule's fixed occupation list misses.
+**Logistic Regression — top features:**
 
-## 7. Issues to Fix in Later Days
-1. Missing values (`workclass`, `occupation`, `native-country`) need proper
-   imputation, not just cleaning
-2. `capital-gain` is highly skewed (mean 1,079 vs. 75th-percentile of 0) —
-   needs a log transform
-3. Categorical features need proper (one-hot) encoding, not hand-written rules
-4. Class imbalance (23.9% positive) needs class weighting
-5. Feature engineering: age buckets, education categories, interaction terms
-6. `hours-per-week` has extreme outlier values (up to 99) to handle
+| Direction | Top features |
+|---|---|
+| Toward `>50K` | `capital-gain` (coef 2.28), `marital-status: Married-civ-spouse` (1.75), `marital-status: Married-AF-spouse` (1.73), `native-country: England` (1.09), `native-country: Ireland` (0.88) |
+| Toward `<=50K` | `occupation: Priv-house-serv` (−1.63), `native-country: Columbia` (−1.54), `marital-status: Never-married` (−1.25), `native-country: Dominican-Republic` (−1.18), `occupation: Farming-fishing` (−0.88) |
 
-## 8. Files in This Folder
+Capital-gain and marital status dominate the top signals — consistent with
+Day 1's error analysis, which found the hand-written rules were missing
+real high earners the education/occupation-only logic didn't cover.
+
+**Decision Tree:**
+- Depth: 10 (capped by `max_depth=10`)
+- Leaves: 184
+- Train accuracy: 0.8603 · Test accuracy: 0.8606
+- Overfitting gap: **−0.0003** — test accuracy is essentially identical to
+  train accuracy, so the depth/leaf-size limits successfully prevented
+  overfitting; the model generalizes well.
+
+## 7. Files in This Folder
 | File | Description |
 |---|---|
-| `adult_income_prediction.py` | Day 1 script: problem definition, EDA, splits, 3 baselines, error analysis |
-| `baseline_results.csv` | Accuracy/Precision/Recall/F1/ROC-AUC/PR-AUC for all 3 baselines |
-| `false_positives_sample.csv` | Sampled false-positive rows from the Advanced Rule baseline |
-| `false_negatives_sample.csv` | Sampled false-negative rows from the Advanced Rule baseline |
-| `figs/eda_visualizations.png` | 6-panel EDA chart (income split, age, education, hours, capital gain, occupation) |
-| `figs/baseline_confusion_matrices.png` | Confusion matrices for all 3 baselines |
-| `figs/baseline_curves.png` | ROC and Precision-Recall curves for all 3 baselines |
+| `AIP_Supervised_model.py` | Day 2 script: preprocessing pipeline, baseline re-evaluation, Logistic Regression + Decision Tree training/evaluation, saving |
+| `models/preprocessor.joblib` | The fitted `ColumnTransformer` alone |
+| `models/log_reg_pipeline.joblib` | Full Logistic Regression pipeline (preprocessing + classifier) |
+| `models/tree_pipeline.joblib` | Full Decision Tree pipeline (preprocessing + classifier) |
+| `models/model_comparison.csv` | Accuracy/Precision/Recall/F1/ROC-AUC/PR-AUC for all 5 models |
+| `figs/roc_curves.png` | ROC curves, Logistic Regression vs. Decision Tree |
+| `figs/pr_curves.png` | Precision-Recall curves, Logistic Regression vs. Decision Tree |
+| `figs/confusion_matrices.png` | Side-by-side confusion matrices for both models |
+| `figs/feature_importance.png` | Top 10 Logistic Regression coefficients pushing toward each class |
+| `figs/decision_tree.png` | Decision Tree structure, first 3 levels |
+| `figs/model_comparison.png` | Bar chart comparing accuracy/precision/recall/F1 across models |
 
-## 9. How to Reproduce
+## 8. How to Reproduce
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-python adult_income_prediction.py
+pip install pandas numpy matplotlib seaborn scikit-learn joblib
+python AIP_Supervised_model.py
 ```
-Uses `random_state=42` throughout, so results and the train/dev/test split
-are identical on every run.
-
-## 10. Next Steps
-- **Day 2:** Build ML models (Logistic Regression, Decision Tree) with a
-  proper preprocessing pipeline — target F1 ~0.60
-- **Day 3:** Feature engineering + cross-validated model comparison — target F1 ~0.65
-- **Day 4:** Hyperparameter tuning, calibration, threshold selection — target F1 > 0.70
-- **Day 5:** Final validation, interpretation, and production inference
+`random_state=42` is used throughout, so the split, Logistic Regression fit,
+and Decision Tree fit are all identical on every run.
 
 Author
 Azka Ashfaq - AI and Data Science Intern
