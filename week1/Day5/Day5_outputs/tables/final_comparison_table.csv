@@ -1,0 +1,5 @@
+model,accuracy,f1,roc_auc,pr_auc,brier_score
+"LogisticRegression (5-fold CV, train)",0.8572,0.673,0.9131,,
+"RandomForest (5-fold CV, train)",0.8594,0.6559,0.9157,,
+"HistGradientBoosting (5-fold CV, train)",0.8711,0.706,0.9269,,
+FINAL MODEL (held-out test set),0.8686,0.7272,0.9288,0.8312,0.0875
