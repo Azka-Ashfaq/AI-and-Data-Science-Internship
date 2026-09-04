@@ -1,0 +1,3 @@
+threshold,type,f1_on_train
+0.5,default,0.7059441784421348
+0.4,F1-optimized,0.7253591538178182

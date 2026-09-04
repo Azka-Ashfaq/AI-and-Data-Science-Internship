@@ -1,0 +1,4 @@
+model,params
+LogisticRegression,"{'C': np.float64(0.9846738873614566), 'penalty': 'l1'}"
+RandomForest,"{'max_depth': 13, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'n_estimators': 183}"
+HistGradientBoosting,"{'l2_regularization': np.float64(0.056411579027100256), 'learning_rate': np.float64(0.11654126622287461), 'max_depth': 8, 'max_iter': 87}"
