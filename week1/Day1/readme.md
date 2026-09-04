@@ -1,84 +1,96 @@
----
+# Adult Income Prediction — Day 1 README
 
-## 🎯 Goal
-Predict if someone earns >50K/year using simple baseline models
+## 1. Objective
+Establish the problem, explore the Adult Census dataset, create reproducible
+train/dev/test splits, and build simple **baseline** predictors before any
+real machine learning model is trained. These baselines set the floor that
+Day 2+ models must beat.
 
----
+## 2. Dataset
+- Source: `fetch_openml('adult', version=2, as_frame=True)`
+- Target: `class`, converted to binary (`1` = `>50K`, `0` = `<=50K`)
+- Missing values (`'?'` / `' ?'`) converted to `NaN`
+- Class distribution: ~24% positive (`>50K`), 76% negative — imbalanced
 
-## 📚 Dataset Information
-| Property | Value |
-|----------|-------|
-| **Dataset** | UCI Adult Census Income |
-| **Samples** | 48,842 |
-| **Features** | 14 |
-| **Target** | Binary (≤50K or >50K) |
-| **Rich People** | 23.9% |
-| **Not Rich** | 76.1% |
+## 3. Business Objective & Success Metric
+Identify individuals likely to earn `>$50K/year` for targeted marketing
+outreach, so campaigns contact high-potential candidates efficiently.
 
----
+**Primary metric: F1-score** — balances Precision (avoid wasting outreach on
+unlikely candidates) against Recall (don't miss genuine high-income
+prospects). A missed high-income candidate (false negative) is a lost
+opportunity; contacting a low-income candidate (false positive) is wasted
+spend.
 
-## 🧠 Models Implemented
+## 4. Data Splits
+Stratified splits with `random_state=42`, reused unchanged in every later
+day of the project:
+- Train: 72%
+- Dev: 8%
+- Test: 20% (held out and untouched until final evaluation)
 
-### Baseline 1: Always Guess "Not Rich"
-- Uses majority class prediction
-- **Strategy:** Predict 0 for everyone
+## 5. Baseline Models & Results
+Three baselines were built and evaluated on the test set — see
+`baseline_results.csv` for the full table:
 
-### Baseline 2: Simple Rule
-- **Rule:** Predict rich if education >= 13 OR capital-gain > 0
-- **Logic:** People with bachelor's degree or investment income
+| Model | Accuracy | Precision | Recall | F1-Score | ROC AUC | PR AUC |
+|---|---|---|---|---|---|---|
+| Majority Class | 0.7607 | 0.0000 | 0.0000 | 0.0000 | — | — |
+| Education Rule (education-num ≥ 13) | 0.7530 | 0.4844 | 0.4970 | 0.4906 | 0.6653 | 0.3611 |
+| **Advanced Rule** (education, capital-gain, or overtime + high-paying occupation) | 0.7439 | 0.4745 | 0.6527 | **0.5495** | 0.7126 | 0.3928 |
 
-### Baseline 3: Advanced Rule
-- **Rules:**
-  - education-num >= 13 (high education), OR
-  - capital-gain > 5000 (significant investment income), OR
-  - hours-per-week > 40 AND education-num >= 12, OR
-  - married AND high education
+**Best baseline: Advanced Rule, F1 = 0.5495.** It outperforms the simpler
+education-only rule because it combines multiple meaningful signals
+(education, investment income, and overtime hours in high-paying
+occupations). The Majority Class predictor scores F1 = 0 because it never
+predicts the positive class at all, despite having the highest raw accuracy
+— a reminder that accuracy alone is misleading on an imbalanced dataset.
 
----
+**Target for the week: F1 > 0.60**, roughly a 10% improvement over this best
+baseline.
 
-## 📊 Results Summary
+## 6. Error Analysis
+`false_positives_sample.csv` and `false_negatives_sample.csv` each contain
+15 sampled rows from the Advanced Rule's errors on the test set, for
+manual inspection:
 
-| Model | Accuracy | Precision | Recall | F1-Score | Rich Caught |
-|-------|----------|-----------|--------|----------|-------------|
-| Baseline 1 | 0.760 | 0.000 | 0.000 | 0.000 | 0 |
-| Baseline 2 | 0.742 | 0.443 | 0.529 | 0.482 | 1,238 |
-| Baseline 3 | 0.724 | 0.426 | 0.608 | 0.501 | 1,423 |
+- **False Positives** (predicted `>50K`, actually `<=50K`): tend to be
+  older workers in steady but not high-paying roles (e.g. Craft-repair,
+  Other-service) who work full hours without matching income, or highly
+  educated individuals (e.g. a Doctorate holder) whose real income didn't
+  cross the threshold that year.
+- **False Negatives** (predicted `<=50K`, actually `>50K`): tend to be
+  workers in occupations the rule doesn't flag as "high-paying"
+  (e.g. Protective-serv, Transport-moving) despite full-time or overtime
+  hours — the rule's occupation list misses real high earners outside its
+  three named categories.
 
-### 🏆 Best Model: Baseline 3 (Advanced Rule)
-- **F1-Score:** 0.501
-- **Rich People Caught:** 1,423 out of 2,340 (60.8%)
+## 7. Issues to Fix in Later Days
+1. Missing values need proper imputation (median/most-frequent), not just cleaning
+2. `capital-gain` is highly skewed — needs a log transform
+3. Categorical features need proper (one-hot) encoding, not hand-written rules
+4. Class imbalance (~24% positive) needs class weighting
+5. Feature engineering: age buckets, education categories, interaction terms
+6. `hours-per-week` has extreme outlier values to handle
 
----
+## 8. Files in This Folder
+| File | Description |
+|---|---|
+| `adult_income_prediction.py` | Day 1 script: problem definition, EDA, splits, 3 baselines, error analysis |
+| `baseline_results.csv` | Accuracy/Precision/Recall/F1/ROC-AUC/PR-AUC for all 3 baselines |
+| `false_positives_sample.csv` | 15 sampled false-positive rows from the Advanced Rule baseline |
+| `false_negatives_sample.csv` | 15 sampled false-negative rows from the Advanced Rule baseline |
+| `figs/eda_visualizations.png` | 6-panel EDA chart (income split, age, education, hours, capital gain, occupation) |
+| `figs/baseline_confusion_matrices.png` | Confusion matrices for all 3 baselines |
+| `figs/baseline_curves.png` | ROC and Precision-Recall curves for all 3 baselines |
 
-## 📈 Performance Analysis
-
-### What Each Metric Tells Us:
-| Metric | Explanation |
-|--------|-------------|
-| **Accuracy** | Overall correct predictions |
-| **Precision** | Of those predicted rich, how many were actually rich |
-| **Recall** | Of all rich people, how many did we catch |
-| **F1-Score** | Harmonic mean of precision and recall |
-
-### Confusion Matrix - Baseline 3
-Predicted
-                Not Rich  Rich
-Actual Not Rich   5,837   1,592
-       Rich         917   1,423
-       - **True Negatives:** 5,837 (correctly predicted not rich)
-- **False Positives:** 1,592 (incorrectly predicted rich)
-- **False Negatives:** 917 (missed rich people)
-- **True Positives:** 1,423 (correctly predicted rich)
-
----
-
-## 🚀 How to Run
-
-### 1. Clone the Repository
-bash
-git clone https://github.com/Azka-Ashfaq/Al-and-Data-Science-Internship.git
-cd Al-and-Data-Science-Internship
----
+## 9. How to Reproduce
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+python adult_income_prediction.py
+```
+Uses `random_state=42` throughout, so results and the train/dev/test split
+are identical on every run.
 
 ## 👤 Author
 
