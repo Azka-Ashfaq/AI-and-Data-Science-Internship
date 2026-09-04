@@ -1,0 +1,16 @@
+age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country
+47,Local-gov,352614,Assoc-acdm,12,Married-civ-spouse,Protective-serv,Husband,White,Male,0,0,40,United-States
+38,Private,414991,HS-grad,9,Married-civ-spouse,Transport-moving,Husband,White,Male,0,0,40,United-States
+26,Local-gov,72594,Some-college,10,Married-civ-spouse,Protective-serv,Husband,White,Male,0,0,55,United-States
+42,Private,107276,Some-college,10,Never-married,Exec-managerial,Not-in-family,White,Female,0,2444,40,United-States
+50,Private,185407,Assoc-voc,11,Married-civ-spouse,Tech-support,Husband,White,Male,0,0,38,United-States
+51,Private,146767,Assoc-voc,11,Married-civ-spouse,Prof-specialty,Husband,White,Male,0,0,40,United-States
+57,Self-emp-inc,244605,Some-college,10,Married-civ-spouse,Sales,Husband,White,Male,0,0,50,United-States
+43,Private,190786,HS-grad,9,Married-civ-spouse,Other-service,Husband,White,Male,0,0,40,United-States
+42,Private,165599,HS-grad,9,Married-civ-spouse,Handlers-cleaners,Husband,White,Male,0,0,40,United-States
+59,Private,245196,10th,6,Married-civ-spouse,Transport-moving,Husband,Black,Male,0,0,40,United-States
+54,Self-emp-inc,138852,Some-college,10,Married-civ-spouse,Sales,Husband,White,Male,0,0,45,United-States
+50,Self-emp-not-inc,163948,HS-grad,9,Married-civ-spouse,Transport-moving,Husband,White,Male,0,0,40,United-States
+56,Private,177271,Assoc-voc,11,Married-civ-spouse,Tech-support,Husband,White,Male,0,0,40,United-States
+46,Private,247043,HS-grad,9,Married-civ-spouse,Transport-moving,Husband,White,Male,0,0,40,United-States
+52,Private,146378,HS-grad,9,Married-civ-spouse,Craft-repair,Husband,White,Male,0,0,40,United-States
