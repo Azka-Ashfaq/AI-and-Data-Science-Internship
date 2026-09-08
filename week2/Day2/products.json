@@ -1,0 +1,14 @@
+{
+  "laptop a": {
+    "price_usd": 650,
+    "specs": "8GB RAM, 256GB SSD, 14-inch"
+  },
+  "laptop b": {
+    "price_usd": 950,
+    "specs": "16GB RAM, 512GB SSD, 15-inch"
+  },
+  "laptop c": {
+    "price_usd": 1200,
+    "specs": "32GB RAM, 1TB SSD, 16-inch"
+  }
+}
