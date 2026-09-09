@@ -1,0 +1,11 @@
+# Image files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.svg binary
+
+# Other binary files
+*.pdf binary
+*.zip binary
