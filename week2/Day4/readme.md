@@ -74,6 +74,7 @@ Full task-by-task write-up, the pros/cons table for sequential vs. hierarchical,
 - [x] Task 4 — Hierarchical crew with manager delegation; sequential vs. hierarchical comparison table
 - [x] Task 5 — Token usage/cost logged across 3 runs; 3 success criteria defined and manually scored
 
-Author
+Author:
+
 Azka-Ashfaq
 AI-Data Science Intern
