@@ -1,0 +1,38 @@
+[
+  {
+    "id": "KB-001",
+    "topic": "refund_policy",
+    "keywords": ["refund", "money back", "chargeback", "reimburse"],
+    "answer": "Web3Geeks offers a full refund within 7 days of purchase if no deliverable has been started, and a partial (50%) refund within 14 days if work has begun but not been delivered. After 14 days or after final delivery, refunds are not issued automatically and require manager approval."
+  },
+  {
+    "id": "KB-002",
+    "topic": "smart_contract_bug",
+    "keywords": ["smart contract", "bug", "solidity", "revert", "gas", "exploit"],
+    "answer": "For smart contract bugs, ask the client for the contract address, network (mainnet/testnet), transaction hash, and a description of expected vs actual behavior. Route to the Solidity dev pod. Do not advise on security-critical fixes without an audit."
+  },
+  {
+    "id": "KB-003",
+    "topic": "onboarding",
+    "keywords": ["onboarding", "new client", "kickoff", "start project", "get started"],
+    "answer": "New client onboarding requires: signed SOW, deposit invoice paid, access to relevant repos/Figma/Notion, and a kickoff call scheduled within 5 business days. Send the onboarding checklist template."
+  },
+  {
+    "id": "KB-004",
+    "topic": "delivery_timeline",
+    "keywords": ["timeline", "delivery date", "eta", "when will", "deadline"],
+    "answer": "Standard delivery timelines: landing page 5-7 business days, full dApp MVP 3-5 weeks, smart contract audit add-on 1-2 weeks. Delays are communicated proactively 48 hours before a missed milestone."
+  },
+  {
+    "id": "KB-005",
+    "topic": "billing_dispute",
+    "keywords": ["invoice", "billing", "overcharged", "payment issue", "double charged"],
+    "answer": "For billing disputes, pull the invoice ID and payment processor transaction ID. Discrepancies under $50 can be auto-credited by support. Disputes over $50 require finance team + manager sign-off before any credit or refund is issued."
+  },
+  {
+    "id": "KB-006",
+    "topic": "cancellation",
+    "keywords": ["cancel", "terminate", "end contract", "stop project"],
+    "answer": "Contract cancellations always require manager approval regardless of stage, since they affect active resourcing and potential penalty clauses in the SOW."
+  }
+]
