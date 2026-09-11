@@ -86,7 +86,8 @@ curl -X POST localhost:8000/resume -H "Content-Type: application/json" \
   `status: awaiting_human_approval` when the graph is paused at
   `human_checkpoint`, and `resume_ticket(ticket_id, approved)` resumes or
   rejects it via the same `thread_id`.
-``
+
+
 Author:
 
 Azka-Ashfaq
