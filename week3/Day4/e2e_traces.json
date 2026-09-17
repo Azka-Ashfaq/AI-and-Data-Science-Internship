@@ -1,0 +1,79 @@
+[
+  {
+    "query": "who will win the Pies vs Cats this week",
+    "intent": "prediction",
+    "tool": "predict_match_winner",
+    "validation": "valid",
+    "response": "Predicted winner: Collingwood Magpies (win probability 64.9%, confidence Moderate).\n\nTop drivers:\n  \u2022 Home team accumulated ladder points/standing (impact 1.475)\n  \u2022 Away team recent win rate (last 5 games) (impact 0.454)\n  \u2022 Home H2H Games Played Prior (impact 0.306)\n\nPredictions are probabilistic statistical estimates based on historical machine learning models and team snapshots. Actual match outcomes are subject to real-time form, injuries, and in-game variance."
+  },
+  {
+    "query": "who will top-score for Carlton",
+    "intent": "prediction",
+    "tool": "predict_top_player",
+    "validation": "valid",
+    "response": "Predicted top player for Carlton Blues: Nic Newman (projected fantasy score 102.8).\n\nGrounding:\n  \u2022 High recent 5-game fantasy baseline (126.4 pts avg)\n  \u2022 Consistent ball-winning midfield/rebound role (~28.2 disposals/game)\n  \u2022 High on-ground presence and primary role in club's setup\n\nPlayer rankings represent statistical expected value simulations under historical conditions. Player selection, tactical matchups, and ground time impact actual fantasy outcomes."
+  },
+  {
+    "query": "what were Dustin Martin's 2017 stats",
+    "intent": "retrieval",
+    "tool": "get_player_season_stats",
+    "validation": "valid",
+    "response": "Dustin Martin in 2017 (25 games): 709 disposals (avg 29.5), 37 goals (avg 1.5), 2784 fantasy points (avg 111.4)."
+  },
+  {
+    "query": "how many disposals did Crippa get last round",
+    "intent": "retrieval",
+    "tool": "get_player_recent_games",
+    "validation": "valid",
+    "response": "Patrick Cripps's last game was on 2025-08-21 (Round 24, 2025 vs Essendon Bombers): 28 disposals, 0 goals, 87 fantasy points."
+  },
+  {
+    "query": "career average for Patrick Cripps",
+    "intent": "retrieval",
+    "tool": "get_player_career_average",
+    "validation": "valid",
+    "response": "Over 230 career matches, Patrick Cripps averaged 25.5 disposals, 0.6 goals, and 93.1 fantasy points per game."
+  },
+  {
+    "query": "head to head between Richmond and Carlton",
+    "intent": "retrieval",
+    "tool": "get_team_head_to_head",
+    "validation": "valid",
+    "response": "Across 58 matches, Richmond Tigers has 25 wins, Carlton Blues has 32 wins, and 1 draws. Most recent match on 2025-03-13 at Melbourne Cricket Ground: Richmond Tigers 82 vs Carlton Blues 69."
+  },
+  {
+    "query": "how many teams are in the AFL",
+    "intent": "factual",
+    "tool": null,
+    "validation": null,
+    "response": "There are currently 18 teams in the AFL competition."
+  },
+  {
+    "query": "what's the weather in Sydney",
+    "intent": "off_topic",
+    "tool": null,
+    "validation": null,
+    "response": "I can only answer AFL-related questions \u2014 stats, head-to-heads, and match/player predictions. Please ask me something about the AFL."
+  },
+  {
+    "query": "will Smith play well this week",
+    "intent": "prediction",
+    "tool": null,
+    "validation": "needs_clarification",
+    "response": "I need the player's full name and team to predict their performance. Could you clarify which player you mean?"
+  },
+  {
+    "query": "predict total tackles for Geelong",
+    "intent": "prediction",
+    "tool": null,
+    "validation": "needs_clarification",
+    "response": "I need two teams to predict a match winner. Which two teams are playing?"
+  },
+  {
+    "query": "who will win",
+    "intent": "prediction",
+    "tool": null,
+    "validation": "needs_clarification",
+    "response": "I need two teams to predict a match winner. Which two teams are playing?"
+  }
+]
