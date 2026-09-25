@@ -1,0 +1,101 @@
+{
+  "latency": {
+    "samples": 10,
+    "avg_ms": 47.9,
+    "p50_ms": 4.9,
+    "p95_ms": 412.2,
+    "min_ms": 2.8,
+    "max_ms": 412.2,
+    "target_ms": 2000,
+    "meets_target": true,
+    "details": [
+      {
+        "query": "Assalam o Alaikum",
+        "latency_ms": 11.9,
+        "status": "ok"
+      },
+      {
+        "query": "Lahore mein 3 bedroom chahiye",
+        "latency_ms": 26.8,
+        "status": "ok"
+      },
+      {
+        "query": "Budget 3 crore hai",
+        "latency_ms": 3.7,
+        "status": "ok"
+      },
+      {
+        "query": "Book kar dein",
+        "latency_ms": 3.2,
+        "status": "ok"
+      },
+      {
+        "query": "Cancel kar dein",
+        "latency_ms": 3.7,
+        "status": "ok"
+      },
+      {
+        "query": "Commission kitna hai?",
+        "latency_ms": 412.2,
+        "status": "ok"
+      },
+      {
+        "query": "DHA mein kya options hain?",
+        "latency_ms": 3.6,
+        "status": "ok"
+      },
+      {
+        "query": "Yeh mehnga hai",
+        "latency_ms": 2.8,
+        "status": "ok"
+      },
+      {
+        "query": "Visit schedule karo",
+        "latency_ms": 4.9,
+        "status": "ok"
+      },
+      {
+        "query": "Shukriya",
+        "latency_ms": 6.2,
+        "status": "ok"
+      }
+    ]
+  },
+  "rag_accuracy": {
+    "correct": 5,
+    "total": 5,
+    "accuracy_pct": 100.0,
+    "details": [
+      {
+        "query": "DHA Lahore 3 bed 3 crore",
+        "returned": 5,
+        "expected": true,
+        "ok": true
+      },
+      {
+        "query": "Bahria Lahore 2 crore",
+        "returned": 5,
+        "expected": true,
+        "ok": true
+      },
+      {
+        "query": "Islamabad 5 crore",
+        "returned": 5,
+        "expected": true,
+        "ok": true
+      },
+      {
+        "query": "Karachi rent 50k",
+        "returned": 5,
+        "expected": true,
+        "ok": true
+      },
+      {
+        "query": "Faisalabad under 1 crore",
+        "returned": 5,
+        "expected": null,
+        "ok": true
+      }
+    ]
+  }
+}
