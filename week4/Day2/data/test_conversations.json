@@ -1,0 +1,62 @@
+[
+  {
+    "id": "buyer_dha_lahore",
+    "title": "Buyer - DHA Lahore 3-bed under 3 crore",
+    "turns": [
+      "Assalam-o-Alaikum",
+      "Budget 3 crore hai, DHA Lahore mein 3 bedroom house chahiye",
+      "Yeh thora expensive lag raha hai",
+      "Theek hai, visit book kar dein"
+    ]
+  },
+  {
+    "id": "renter_gulberg",
+    "title": "Renter - Gulberg 2-bed",
+    "turns": [
+      "Mujhe Gulberg mein 2 bedroom flat rent pe chahiye",
+      "Monthly budget 80 hazaar hai",
+      "Koi option available hai?",
+      "Theek hai, visit schedule kar dein"
+    ]
+  },
+  {
+    "id": "investor_islamabad",
+    "title": "Investor - Islamabad ROI focus",
+    "turns": [
+      "Main investment ke liye property dekh raha hoon",
+      "Budget 5 crore hai, Islamabad mein",
+      "Appreciation potential kaisi hai?",
+      "Kaunse areas recommend karenge?"
+    ]
+  },
+  {
+    "id": "commercial_karachi",
+    "title": "Commercial - Karachi shop",
+    "turns": [
+      "Mujhe Karachi mein commercial shop chahiye",
+      "Clifton area mein, budget 4 crore",
+      "Payment plan kya hai?",
+      "Theek hai, details bhej dein"
+    ]
+  },
+  {
+    "id": "reschedule",
+    "title": "Reschedule existing appointment",
+    "turns": [
+      "Mera appointment reschedule karna hai",
+      "Mera number 03001234567 hai, Ali naam hai",
+      "Saturday 11 baje ki jagah Sunday 3 baje kar dein",
+      "Shukriya"
+    ]
+  },
+  {
+    "id": "cancel",
+    "title": "Cancel appointment",
+    "turns": [
+      "Mujhe apna appointment cancel karna hai",
+      "Number 03001234567, naam Ali",
+      "Ji haan cancel kar dein",
+      "Shukriya, Allah Hafiz"
+    ]
+  }
+]

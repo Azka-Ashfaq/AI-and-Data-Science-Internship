@@ -1,0 +1,405 @@
+city,location,school_name,distance_km
+Lahore,Wapda Town,Beaconhouse School System,0.8
+Lahore,Wapda Town,Roots International Schools,2.2
+Lahore,Wapda Town,Convent of Jesus & Mary,1.5
+Lahore,DHA Defence,Aitchison College,2.7
+Lahore,DHA Defence,Lahore Grammar School,2.8
+Karachi,Jamshed Town,Roots International Schools,2.6
+Karachi,Jamshed Town,Divisional Public School,3.6
+Karachi,Jamshed Town,Froebel's International,2.4
+Lahore,Garden Town,The City School,2.5
+Karachi,Malir,Froebel's International,2.8
+Karachi,Malir,Divisional Public School,2.3
+Karachi,North Nazimabad,Beaconhouse School System,1.9
+Karachi,North Nazimabad,Divisional Public School,2.9
+Islamabad,DHA Defence,Aitchison College,4.0
+Rawalpindi,Bahria Town Rawalpindi,Divisional Public School,3.8
+Karachi,Gadap Town,Convent of Jesus & Mary,2.1
+Karachi,Gadap Town,Aitchison College,0.9
+Karachi,Gadap Town,Roots International Schools,3.0
+Lahore,Shershah Colony - Raiwind Road,Lahore Grammar School,2.6
+Islamabad,F-7,Divisional Public School,2.4
+Islamabad,F-7,Convent of Jesus & Mary,0.8
+Faisalabad,Saeed Colony,Convent of Jesus & Mary,2.6
+Faisalabad,Saeed Colony,Beaconhouse School System,4.4
+Faisalabad,Saeed Colony,Aitchison College,4.0
+Islamabad,G-11,Beaconhouse School System,3.7
+Islamabad,G-11,Convent of Jesus & Mary,2.4
+Islamabad,F-10,Froebel's International,1.3
+Lahore,Divine Gardens,Froebel's International,3.7
+Lahore,Divine Gardens,The City School,4.4
+Karachi,Scheme 33,Divisional Public School,2.7
+Karachi,Scheme 33,Froebel's International,1.0
+Karachi,Scheme 33,The City School,0.6
+Lahore,Askari,Froebel's International,1.5
+Karachi,Bath Island,Lahore Grammar School,3.6
+Karachi,Bath Island,Beaconhouse School System,1.1
+Lahore,Main Canal Bank Road,Convent of Jesus & Mary,0.7
+Karachi,BMCHS,Convent of Jesus & Mary,1.6
+Karachi,BMCHS,Roots International Schools,2.5
+Karachi,BMCHS,Froebel's International,3.7
+Islamabad,H-13,Roots International Schools,2.2
+Karachi,Gulistan-e-Jauhar,Divisional Public School,4.5
+Karachi,Gulistan-e-Jauhar,Lahore Grammar School,3.8
+Karachi,North Karachi,Divisional Public School,0.6
+Karachi,North Karachi,Convent of Jesus & Mary,1.8
+Karachi,North Karachi,Froebel's International,3.0
+Islamabad,G-9,Lahore Grammar School,3.9
+Islamabad,G-9,Aitchison College,3.2
+Faisalabad,Others,Bahria College,4.3
+Islamabad,Bani Gala,Lahore Grammar School,3.3
+Islamabad,Bani Gala,Beaconhouse School System,4.3
+Islamabad,Bani Gala,Bahria College,4.4
+Lahore,Lahore Canal Bank Cooperative Housing Society,Bahria College,0.6
+Karachi,Bahria Town Karachi,Aitchison College,1.4
+Karachi,Bahria Town Karachi,Bahria College,1.4
+Karachi,Bahria Town Karachi,Froebel's International,1.3
+Islamabad,Bahria Town,Beaconhouse School System,0.8
+Rawalpindi,Askari 4,Convent of Jesus & Mary,1.5
+Rawalpindi,Askari 4,Froebel's International,4.4
+Lahore,Al Rehman Garden,The City School,2.1
+Lahore,Al Rehman Garden,Lahore Grammar School,0.7
+Faisalabad,Eden Orchard,Bahria College,3.4
+Lahore,Lalazar,Beaconhouse School System,1.0
+Islamabad,I-10,Divisional Public School,1.5
+Karachi,DHA Defence,Roots International Schools,1.1
+Karachi,DHA Defence,The City School,1.5
+Karachi,DHA Defence,Bahria College,3.5
+Lahore,Bahria Town,Roots International Schools,4.2
+Lahore,Bahria Town,Bahria College,0.6
+Lahore,Bahria Town,Beaconhouse School System,2.3
+Islamabad,I-8,Convent of Jesus & Mary,1.6
+Lahore,Habibullah Road,Bahria College,2.2
+Lahore,Habibullah Road,Lahore Grammar School,2.0
+Lahore,Sabzazar Scheme,The City School,2.1
+Lahore,Sabzazar Scheme,Aitchison College,4.0
+Islamabad,F-11,Convent of Jesus & Mary,1.3
+Islamabad,F-11,Froebel's International,2.0
+Islamabad,Soan Garden,Bahria College,4.1
+Islamabad,Soan Garden,Divisional Public School,2.7
+Islamabad,Soan Garden,Beaconhouse School System,1.2
+Karachi,Korangi,Lahore Grammar School,0.8
+Lahore,Izmir Town,Convent of Jesus & Mary,1.8
+Lahore,Izmir Town,The City School,2.0
+Karachi,Al-Manzar Society,Bahria College,1.0
+Karachi,Al-Manzar Society,Froebel's International,2.5
+Lahore,Jubilee Town,Divisional Public School,0.5
+Lahore,Jubilee Town,Convent of Jesus & Mary,2.1
+Islamabad,Ghauri Town,Bahria College,4.3
+Lahore,Pak Arab Housing Society,Bahria College,3.1
+Lahore,Pak Arab Housing Society,Froebel's International,4.0
+Islamabad,Pakistan Town,Roots International Schools,4.2
+Islamabad,Pakistan Town,Aitchison College,1.4
+Faisalabad,Satiana Road,Roots International Schools,3.6
+Faisalabad,Satiana Road,Bahria College,1.3
+Lahore,Harbanspura,Roots International Schools,0.6
+Faisalabad,Officers Colony,Convent of Jesus & Mary,3.5
+Lahore,Anarkali,Froebel's International,2.2
+Islamabad,Bhara kahu,Divisional Public School,2.0
+Islamabad,Bhara kahu,Roots International Schools,4.1
+Islamabad,Bhara kahu,Lahore Grammar School,0.6
+Rawalpindi,Chakri,Bahria College,4.3
+Rawalpindi,Chakri,Froebel's International,3.0
+Islamabad,F-8,Divisional Public School,4.2
+Islamabad,F-8,Lahore Grammar School,1.2
+Islamabad,G-13,Aitchison College,0.8
+Lahore,IBL Housing Scheme,Divisional Public School,1.4
+Lahore,IBL Housing Scheme,Lahore Grammar School,2.2
+Islamabad,D-17,Roots International Schools,1.5
+Islamabad,D-17,Lahore Grammar School,1.1
+Lahore,Labor Colony,Divisional Public School,4.0
+Islamabad,National Police Foundation,Convent of Jesus & Mary,2.3
+Islamabad,National Police Foundation,Lahore Grammar School,1.5
+Rawalpindi,Adiala Road,Bahria College,0.7
+Islamabad,Naval Anchorage,Convent of Jesus & Mary,0.8
+Islamabad,Naval Anchorage,Divisional Public School,0.9
+Lahore,Gulberg,Froebel's International,0.6
+Lahore,Gulberg,Aitchison College,3.6
+Lahore,Gulberg,Roots International Schools,3.7
+Lahore,Lalazaar Garden,Lahore Grammar School,0.6
+Lahore,Lalazaar Garden,Convent of Jesus & Mary,2.7
+Karachi,Jamshed Road,Divisional Public School,1.7
+Karachi,Jamshed Road,Roots International Schools,3.8
+Islamabad,E-7,Lahore Grammar School,0.7
+Islamabad,E-7,Roots International Schools,4.3
+Lahore,T & T Aabpara Housing Society,Divisional Public School,3.1
+Lahore,T & T Aabpara Housing Society,Bahria College,1.7
+Karachi,Abul Hassan Isphani Road,Divisional Public School,2.4
+Karachi,Abul Hassan Isphani Road,Lahore Grammar School,0.9
+Karachi,Abul Hassan Isphani Road,Aitchison College,1.0
+Rawalpindi,Islamabad Highway,Aitchison College,3.9
+Rawalpindi,Islamabad Highway,Lahore Grammar School,4.5
+Rawalpindi,Islamabad Highway,Beaconhouse School System,3.4
+Islamabad,F-6,Froebel's International,4.1
+Islamabad,D-12,Lahore Grammar School,2.1
+Lahore,Eden,Aitchison College,2.0
+Lahore,Eden,Froebel's International,2.0
+Lahore,Eden,Lahore Grammar School,1.1
+Lahore,Architects Engineers Housing Society,Roots International Schools,1.1
+Islamabad,Shah Allah Ditta,The City School,2.6
+Islamabad,Shah Allah Ditta,Froebel's International,2.2
+Karachi,Defence View Society,Lahore Grammar School,4.0
+Faisalabad,Nishatabad,Lahore Grammar School,1.1
+Faisalabad,Nishatabad,Roots International Schools,4.1
+Rawalpindi,Shalley Valley,Convent of Jesus & Mary,1.7
+Lahore,Canal Garden,Roots International Schools,1.0
+Lahore,Canal Garden,Beaconhouse School System,4.1
+Islamabad,E-11,Roots International Schools,4.3
+Karachi,Federal B Area,Aitchison College,3.0
+Karachi,Garden West,Beaconhouse School System,1.1
+Karachi,Garden West,Convent of Jesus & Mary,3.1
+Karachi,Garden West,Divisional Public School,0.7
+Karachi,Cantt,Roots International Schools,0.9
+Lahore,Allama Iqbal Town,Froebel's International,1.5
+Lahore,Allama Iqbal Town,Aitchison College,1.9
+Lahore,Johar Town,Froebel's International,2.4
+Lahore,Samanabad,Beaconhouse School System,1.9
+Lahore,Ichhra,Roots International Schools,2.5
+Faisalabad,Al Rehmat Villas,Froebel's International,1.3
+Rawalpindi,Dhok Mangtal,Froebel's International,3.9
+Rawalpindi,Dhok Mangtal,Lahore Grammar School,3.1
+Rawalpindi,Dhok Mangtal,Aitchison College,3.5
+Karachi,Nazimabad,Bahria College,3.4
+Karachi,Nazimabad,Lahore Grammar School,4.4
+Islamabad,CBR Town,Bahria College,3.4
+Lahore,Raiwind Road,Bahria College,1.1
+Lahore,Raiwind Road,Divisional Public School,2.9
+Lahore,Raiwind Road,Beaconhouse School System,2.1
+Islamabad,Korang Town,Bahria College,4.1
+Islamabad,Korang Town,The City School,1.5
+Lahore,Cavalry Ground,Beaconhouse School System,1.5
+Karachi,DHA City Karachi,Divisional Public School,3.7
+Karachi,DHA City Karachi,Beaconhouse School System,2.0
+Karachi,DHA City Karachi,Froebel's International,1.9
+Karachi,Navy Housing Scheme Karsaz,Beaconhouse School System,0.8
+Islamabad,PWD Housing Scheme,Divisional Public School,3.1
+Rawalpindi,Lalkurti,Bahria College,3.3
+Rawalpindi,Airport Housing Society,The City School,1.1
+Rawalpindi,Airport Housing Society,Froebel's International,1.7
+Lahore,Park View Villas,Bahria College,0.9
+Lahore,Park View Villas,Convent of Jesus & Mary,1.1
+Lahore,Park View Villas,Divisional Public School,1.4
+Lahore,Gulshan-e-Lahore,The City School,1.6
+Lahore,Gulshan-e-Lahore,Convent of Jesus & Mary,1.4
+Lahore,State Life Housing Society,Beaconhouse School System,1.8
+Lahore,State Life Housing Society,Lahore Grammar School,3.3
+Lahore,State Life Housing Society,Aitchison College,2.5
+Karachi,Liaquatabad,Froebel's International,2.4
+Karachi,Liaquatabad,The City School,3.5
+Karachi,Liaquatabad,Bahria College,1.1
+Lahore,Kot Lakhpat,Froebel's International,1.5
+Lahore,Kot Lakhpat,Aitchison College,0.7
+Karachi,Sea View Apartments,Bahria College,2.8
+Karachi,Sea View Apartments,Lahore Grammar School,3.0
+Rawalpindi,Kurri Road,Beaconhouse School System,1.1
+Rawalpindi,Kurri Road,Aitchison College,3.2
+Rawalpindi,Kurri Road,Bahria College,3.3
+Lahore,EME Society,Beaconhouse School System,2.0
+Lahore,Canal Fort II,Beaconhouse School System,2.6
+Lahore,Canal Fort II,Divisional Public School,3.8
+Lahore,Canal Fort II,Bahria College,3.6
+Faisalabad,Millat Town,Aitchison College,0.5
+Faisalabad,Samanabad Road,Beaconhouse School System,2.0
+Lahore,Revenue Society,The City School,1.7
+Lahore,Revenue Society,Aitchison College,2.9
+Lahore,Revenue Society,Lahore Grammar School,4.3
+Lahore,Al-Jannat Housing Society - Kahna,Aitchison College,4.3
+Lahore,Al-Jannat Housing Society - Kahna,Divisional Public School,3.6
+Lahore,Nasheman-e-Iqbal,Aitchison College,2.9
+Lahore,Nasheman-e-Iqbal,Convent of Jesus & Mary,4.1
+Karachi,Gulshan-e-Iqbal Town,Convent of Jesus & Mary,1.9
+Karachi,Gulshan-e-Iqbal Town,Divisional Public School,0.8
+Karachi,Gulberg Town,Beaconhouse School System,2.3
+Karachi,Gulberg Town,Aitchison College,0.9
+Islamabad,G-15,Bahria College,2.0
+Lahore,Khayaban-e-Amin,Beaconhouse School System,2.6
+Lahore,Khayaban-e-Amin,Froebel's International,0.6
+Lahore,Khayaban-e-Amin,Lahore Grammar School,0.6
+Faisalabad,Samundari Road,The City School,0.7
+Faisalabad,Samundari Road,Beaconhouse School System,2.7
+Faisalabad,Gulshan e Madina,The City School,2.3
+Faisalabad,Gulshan e Madina,Aitchison College,1.1
+Faisalabad,Gulshan e Madina,Convent of Jesus & Mary,4.4
+Faisalabad,Canal Road,Divisional Public School,1.1
+Faisalabad,Canal Road,Beaconhouse School System,3.5
+Faisalabad,Canal Road,Convent of Jesus & Mary,4.3
+Lahore,Military Accounts Housing Society,Beaconhouse School System,2.4
+Islamabad,I-12,The City School,2.3
+Lahore,Faisal Town,Bahria College,2.2
+Karachi,Falcon Complex Faisal,The City School,4.4
+Karachi,Falcon Complex Faisal,Lahore Grammar School,0.7
+Lahore,Bahria Orchard,Aitchison College,1.7
+Rawalpindi,Rail View Housing Society,Divisional Public School,0.5
+Rawalpindi,Tulsa Road,The City School,3.8
+Lahore,Defence Road,Froebel's International,3.9
+Lahore,Defence Road,Convent of Jesus & Mary,4.0
+Lahore,Defence Road,Lahore Grammar School,2.5
+Islamabad,Gulberg,Froebel's International,2.6
+Islamabad,Gulberg,Beaconhouse School System,2.3
+Islamabad,Gulberg,Lahore Grammar School,2.6
+Lahore,Islampura,Beaconhouse School System,1.5
+Lahore,Islampura,Lahore Grammar School,0.9
+Lahore,Islampura,Convent of Jesus & Mary,3.0
+Lahore,Lake City,Divisional Public School,2.3
+Lahore,Lake City,Roots International Schools,1.9
+Lahore,Lake City,Froebel's International,0.9
+Lahore,Punjab Govt Employees Society,Roots International Schools,3.2
+Lahore,Punjab Govt Employees Society,Convent of Jesus & Mary,2.3
+Lahore,Punjab Govt Employees Society,The City School,2.1
+Lahore,Garhi Shahu,Aitchison College,3.8
+Lahore,Garhi Shahu,Froebel's International,3.9
+Lahore,Paragon City,Froebel's International,2.2
+Karachi,Fazaia Housing Scheme,Bahria College,0.9
+Karachi,Fazaia Housing Scheme,Beaconhouse School System,1.0
+Karachi,Fazaia Housing Scheme,Convent of Jesus & Mary,0.6
+Islamabad,Faisal Town - F-18,Divisional Public School,2.9
+Rawalpindi,Gulraiz Housing Scheme,Divisional Public School,3.1
+Rawalpindi,Gulraiz Housing Scheme,Roots International Schools,1.3
+Lahore,Badami Bagh,Aitchison College,1.1
+Lahore,Badami Bagh,Beaconhouse School System,4.3
+Lahore,Badami Bagh,Lahore Grammar School,1.8
+Karachi,Korangi Road,Beaconhouse School System,3.8
+Karachi,Korangi Road,Aitchison College,1.9
+Faisalabad,Khayaban Colony,The City School,3.6
+Faisalabad,Khayaban Colony,Divisional Public School,3.3
+Faisalabad,Khayaban Colony,Lahore Grammar School,4.2
+Faisalabad,Hamza Villas,Bahria College,2.0
+Faisalabad,Hamza Villas,The City School,2.3
+Islamabad,B-17,Lahore Grammar School,3.7
+Islamabad,B-17,Bahria College,2.2
+Lahore,Bismillah Housing Scheme,Divisional Public School,3.6
+Lahore,Bismillah Housing Scheme,Bahria College,2.7
+Lahore,Bismillah Housing Scheme,Convent of Jesus & Mary,4.5
+Karachi,Shah Faisal Town,Aitchison College,2.0
+Faisalabad,Wapda City,Bahria College,2.6
+Lahore,Hakim Town,The City School,1.9
+Rawalpindi,Allahabad Road,Beaconhouse School System,2.5
+Rawalpindi,Allahabad Road,Roots International Schools,2.7
+Rawalpindi,Allahabad Road,The City School,1.6
+Karachi,Etawa Society,Lahore Grammar School,4.3
+Lahore,Peco Road,Bahria College,3.0
+Lahore,Hamza Town,Beaconhouse School System,1.5
+Lahore,Hamza Town,Roots International Schools,0.7
+Lahore,Model Town,Roots International Schools,2.1
+Lahore,Model Town,Aitchison College,3.3
+Lahore,Model Town,Lahore Grammar School,0.6
+Rawalpindi,Askari 14,Froebel's International,2.6
+Faisalabad,Punjab Govt. Servants Housing Foundation,Aitchison College,0.6
+Faisalabad,Jaranwala,Divisional Public School,3.7
+Faisalabad,Jaranwala,Convent of Jesus & Mary,1.5
+Faisalabad,Jaranwala,Aitchison College,2.0
+Faisalabad,Ismail Valley,Divisional Public School,1.5
+Faisalabad,Ismail Valley,Froebel's International,2.9
+Faisalabad,Ismail Valley,Bahria College,1.4
+Karachi,Clifton,Aitchison College,3.3
+Lahore,Punjab Coop Housing Society,Bahria College,1.0
+Rawalpindi,Rawat,Divisional Public School,2.1
+Rawalpindi,Rawat,Roots International Schools,4.1
+Rawalpindi,Rawat,Aitchison College,0.9
+Faisalabad,Madina Town,Lahore Grammar School,3.5
+Faisalabad,Madina Town,Aitchison College,2.7
+Rawalpindi,Satellite Town,The City School,1.8
+Rawalpindi,Satellite Town,Beaconhouse School System,3.6
+Rawalpindi,Satellite Town,Aitchison College,1.9
+Lahore,Bedian Road,Convent of Jesus & Mary,0.7
+Lahore,Bedian Road,Divisional Public School,3.3
+Lahore,Bedian Road,Bahria College,2.2
+Lahore,Nishtar Colony,Beaconhouse School System,1.2
+Rawalpindi,Westridge,Bahria College,4.0
+Rawalpindi,Westridge,Lahore Grammar School,1.1
+Rawalpindi,Chaklala Scheme,The City School,3.3
+Islamabad,FECHS,Froebel's International,2.3
+Rawalpindi,Khayaban-e-Sir Syed,Divisional Public School,4.3
+Karachi,Mehmoodabad,Lahore Grammar School,2.0
+Karachi,Mehmoodabad,Bahria College,4.3
+Lahore,Valencia Housing Society,Froebel's International,0.7
+Lahore,Valencia Housing Society,Bahria College,0.9
+Lahore,Valencia Housing Society,The City School,3.7
+Islamabad,Kashmir Highway,Aitchison College,4.4
+Islamabad,Kashmir Highway,The City School,3.9
+Lahore,Hassan Town,Divisional Public School,0.5
+Karachi,Punjab Colony,Aitchison College,4.4
+Karachi,Punjab Colony,Lahore Grammar School,4.3
+Lahore,Cantt,Roots International Schools,1.4
+Karachi,Khayaban-e-Ittehad Road,Lahore Grammar School,4.4
+Rawalpindi,Gulzar-e-Quaid Housing Society,Divisional Public School,2.8
+Rawalpindi,Gulzar-e-Quaid Housing Society,Roots International Schools,1.0
+Rawalpindi,Gulzar-e-Quaid Housing Society,Bahria College,2.6
+Rawalpindi,New Lalazar,Aitchison College,2.8
+Rawalpindi,New Lalazar,Lahore Grammar School,3.6
+Rawalpindi,New Lalazar,The City School,1.0
+Karachi,Khalid Bin Walid Road,The City School,2.2
+Karachi,Khalid Bin Walid Road,Lahore Grammar School,4.1
+Islamabad,Islamabad Highway,Convent of Jesus & Mary,3.4
+Islamabad,Islamabad Highway,Froebel's International,0.7
+Faisalabad,Al Noor Garden,Divisional Public School,0.6
+Faisalabad,Al Noor Garden,The City School,0.9
+Faisalabad,Al Noor Garden,Aitchison College,3.7
+Lahore,Upper Mall,Beaconhouse School System,1.9
+Islamabad,Margalla Town,Lahore Grammar School,2.1
+Islamabad,Margalla Town,Divisional Public School,4.0
+Faisalabad,Ayub Colony,Divisional Public School,2.8
+Faisalabad,Ayub Colony,Froebel's International,2.1
+Karachi,Sindh Industrial Trading Estate (SITE),Aitchison College,0.8
+Karachi,Sindh Industrial Trading Estate (SITE),Bahria College,4.5
+Rawalpindi,Media Town,The City School,1.7
+Rawalpindi,Muslim Town,Froebel's International,1.4
+Rawalpindi,Muslim Town,Roots International Schools,1.9
+Rawalpindi,Muslim Town,Aitchison College,1.0
+Lahore,Gulshan-e-Ravi,Convent of Jesus & Mary,0.8
+Lahore,Gulshan-e-Ravi,Froebel's International,1.3
+Lahore,Al-Raziq Garden,Bahria College,3.5
+Lahore,Al-Raziq Garden,Beaconhouse School System,3.0
+Lahore,Mateen Avenue,Beaconhouse School System,4.4
+Lahore,Sami Town,Froebel's International,1.8
+Lahore,Sami Town,Beaconhouse School System,4.0
+Lahore,Sami Town,The City School,0.6
+Lahore,Ghous Garden,Aitchison College,4.3
+Lahore,Ghous Garden,Bahria College,4.0
+Lahore,Ittifaq Town,Convent of Jesus & Mary,3.6
+Faisalabad,Makkah Garden,Bahria College,0.6
+Faisalabad,Makkah Garden,Divisional Public School,3.1
+Faisalabad,Makkah Garden,Aitchison College,3.1
+Lahore,Nawab Town,Roots International Schools,2.1
+Lahore,Islamia Park,Lahore Grammar School,2.6
+Islamabad,G-10,Froebel's International,1.4
+Islamabad,G-10,Beaconhouse School System,2.0
+Rawalpindi,Dhok Sayedan Road,Divisional Public School,4.4
+Rawalpindi,Dhok Sayedan Road,Roots International Schools,3.7
+Lahore,Abdul Sattar Edhi Road,Divisional Public School,0.7
+Lahore,Abdul Sattar Edhi Road,Roots International Schools,3.6
+Lahore,Abdul Sattar Edhi Road,Bahria College,3.9
+Lahore,Lahore Medical Housing Society,Lahore Grammar School,0.9
+Lahore,Lahore Medical Housing Society,Froebel's International,1.2
+Faisalabad,Eden Gardens,Lahore Grammar School,2.5
+Islamabad,Jhangi Syedan,Beaconhouse School System,1.4
+Islamabad,Jhangi Syedan,Lahore Grammar School,2.7
+Lahore,Mughalpura,Bahria College,4.4
+Lahore,Mughalpura,The City School,1.3
+Lahore,Tricon Village,Convent of Jesus & Mary,3.3
+Lahore,Tricon Village,Froebel's International,4.4
+Rawalpindi,Holy Family Road,Aitchison College,1.3
+Rawalpindi,Holy Family Road,Roots International Schools,1.0
+Rawalpindi,Holy Family Road,Convent of Jesus & Mary,3.9
+Lahore,Kahna,Convent of Jesus & Mary,1.4
+Lahore,Kahna,Aitchison College,3.0
+Faisalabad,Jhang Road,Divisional Public School,2.6
+Faisalabad,Jhang Road,Froebel's International,2.4
+Islamabad,Madina Town,Beaconhouse School System,1.8
+Lahore,Allama Iqbal Road,The City School,1.7
+Lahore,Allama Iqbal Road,Bahria College,2.3
+Lahore,Allama Iqbal Road,Roots International Schools,0.9
+Rawalpindi,Farooq-e-Azam Road,Beaconhouse School System,0.5
+Rawalpindi,Farooq-e-Azam Road,Roots International Schools,1.5
+Lahore,Tajpura,Roots International Schools,1.0
+Karachi,New Karachi,Lahore Grammar School,3.3
+Karachi,New Karachi,Roots International Schools,2.0
+Karachi,New Karachi,Aitchison College,3.2
+Karachi,Orangi Town,Aitchison College,4.5
+Karachi,Orangi Town,Convent of Jesus & Mary,1.2
+Karachi,KDA Scheme 1,Bahria College,2.0
+Karachi,KDA Scheme 1,Froebel's International,2.3
+Karachi,KDA Scheme 1,Aitchison College,0.9
+Lahore,Township,Aitchison College,3.8
+Lahore,Township,Lahore Grammar School,4.0
+Lahore,Township,Roots International Schools,1.1

@@ -1,0 +1,9 @@
+```csv
+conversation_id,title,naturalness_1to5,persuasiveness_1to5,fluency_1to5,conversation_flow_1to5,notes
+buyer_dha_lahore,Buyer - DHA Lahore 3-bed under 3 crore,4,4,4,5,"Strong UrduLish; correctly recalled budget and DHA across all turns; 3 real properties surfaced from SQL"
+renter_gulberg,Renter - Gulberg 2-bed,4,3,4,4,"Good flow; correctly switched to For Rent purpose; could push visit booking more assertively"
+investor_islamabad,Investor - Islamabad ROI focus,3,3,3,4,"Handled investment intent; developer-credential detail would strengthen rebuttals"
+commercial_karachi,Commercial - Karachi shop,4,4,4,4,"Payment plan info pulled cleanly from FAQ layer; visit offer made naturally"
+reschedule,Reschedule existing appointment,3,3,4,3,"Flow works; needs real calendar tool wired for full score (currently stubbed)"
+cancel,Cancel appointment,4,4,4,4,"Handled politely, offered reschedule alternative per Day 1 flow"
+```

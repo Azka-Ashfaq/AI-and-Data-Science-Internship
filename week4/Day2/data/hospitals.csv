@@ -1,0 +1,308 @@
+city,location,hospital_name,distance_km
+Lahore,Wapda Town,Shifa International Hospital,3.7
+Lahore,Wapda Town,Ittefaq Hospital,5.7
+Lahore,DHA Defence,Doctors Hospital,3.8
+Karachi,Jamshed Town,Fauji Foundation Hospital,2.1
+Karachi,Jamshed Town,South City Hospital,1.7
+Lahore,Garden Town,Fauji Foundation Hospital,1.6
+Karachi,Malir,Services Hospital,3.3
+Karachi,North Nazimabad,Shifa International Hospital,4.8
+Karachi,North Nazimabad,Doctors Hospital,1.5
+Islamabad,DHA Defence,Ittefaq Hospital,4.4
+Islamabad,DHA Defence,South City Hospital,2.8
+Rawalpindi,Bahria Town Rawalpindi,Services Hospital,2.3
+Karachi,Gadap Town,Aga Khan University Hospital,1.2
+Lahore,Shershah Colony - Raiwind Road,Shifa International Hospital,5.3
+Lahore,Shershah Colony - Raiwind Road,PIMS Hospital,4.0
+Islamabad,F-7,Fauji Foundation Hospital,4.6
+Faisalabad,Saeed Colony,Fauji Foundation Hospital,2.6
+Faisalabad,Saeed Colony,Doctors Hospital,2.0
+Islamabad,G-11,Fauji Foundation Hospital,3.1
+Islamabad,F-10,PIMS Hospital,5.5
+Lahore,Divine Gardens,PIMS Hospital,4.7
+Lahore,Divine Gardens,Aga Khan University Hospital,1.2
+Karachi,Scheme 33,South City Hospital,3.1
+Lahore,Askari,South City Hospital,5.5
+Lahore,Askari,Shifa International Hospital,2.6
+Karachi,Bath Island,PIMS Hospital,4.0
+Lahore,Main Canal Bank Road,Services Hospital,1.0
+Karachi,BMCHS,Services Hospital,5.6
+Islamabad,H-13,Services Hospital,4.9
+Karachi,Gulistan-e-Jauhar,Ittefaq Hospital,6.0
+Karachi,North Karachi,Doctors Hospital,5.9
+Islamabad,G-9,Ittefaq Hospital,3.6
+Islamabad,G-9,Doctors Hospital,3.5
+Faisalabad,Others,Services Hospital,1.2
+Islamabad,Bani Gala,Shifa International Hospital,1.8
+Islamabad,Bani Gala,Doctors Hospital,2.4
+Lahore,Lahore Canal Bank Cooperative Housing Society,Aga Khan University Hospital,3.5
+Karachi,Bahria Town Karachi,Ittefaq Hospital,5.9
+Islamabad,Bahria Town,Services Hospital,2.1
+Islamabad,Bahria Town,PIMS Hospital,2.3
+Rawalpindi,Askari 4,Aga Khan University Hospital,1.8
+Rawalpindi,Askari 4,South City Hospital,2.5
+Lahore,Al Rehman Garden,Services Hospital,2.4
+Faisalabad,Eden Orchard,Shifa International Hospital,5.1
+Lahore,Lalazar,Doctors Hospital,5.1
+Lahore,Lalazar,Aga Khan University Hospital,3.7
+Islamabad,I-10,Services Hospital,2.0
+Karachi,DHA Defence,South City Hospital,3.3
+Karachi,DHA Defence,Shifa International Hospital,3.3
+Lahore,Bahria Town,Services Hospital,1.9
+Lahore,Bahria Town,Aga Khan University Hospital,5.7
+Islamabad,I-8,Fauji Foundation Hospital,2.0
+Lahore,Habibullah Road,Fauji Foundation Hospital,0.8
+Lahore,Sabzazar Scheme,Fauji Foundation Hospital,5.6
+Islamabad,F-11,Shifa International Hospital,4.8
+Islamabad,F-11,Ittefaq Hospital,2.9
+Islamabad,Soan Garden,Fauji Foundation Hospital,2.3
+Islamabad,Soan Garden,South City Hospital,4.6
+Karachi,Korangi,Aga Khan University Hospital,5.5
+Karachi,Korangi,PIMS Hospital,6.0
+Lahore,Izmir Town,Shifa International Hospital,4.7
+Karachi,Al-Manzar Society,Doctors Hospital,2.2
+Lahore,Jubilee Town,PIMS Hospital,4.9
+Lahore,Jubilee Town,Doctors Hospital,2.0
+Islamabad,Ghauri Town,Ittefaq Hospital,4.8
+Islamabad,Ghauri Town,Fauji Foundation Hospital,1.3
+Lahore,Pak Arab Housing Society,Aga Khan University Hospital,2.1
+Lahore,Pak Arab Housing Society,Services Hospital,5.8
+Islamabad,Pakistan Town,Fauji Foundation Hospital,4.5
+Faisalabad,Satiana Road,Aga Khan University Hospital,4.8
+Faisalabad,Satiana Road,South City Hospital,2.3
+Lahore,Harbanspura,Ittefaq Hospital,1.1
+Faisalabad,Officers Colony,Services Hospital,4.3
+Lahore,Anarkali,Aga Khan University Hospital,2.8
+Islamabad,Bhara kahu,Aga Khan University Hospital,4.1
+Islamabad,Bhara kahu,Ittefaq Hospital,2.9
+Rawalpindi,Chakri,Fauji Foundation Hospital,2.3
+Rawalpindi,Chakri,South City Hospital,4.6
+Islamabad,F-8,South City Hospital,2.0
+Islamabad,F-8,Services Hospital,5.3
+Islamabad,G-13,PIMS Hospital,3.7
+Lahore,IBL Housing Scheme,Doctors Hospital,4.9
+Islamabad,D-17,Fauji Foundation Hospital,1.1
+Lahore,Labor Colony,PIMS Hospital,5.6
+Islamabad,National Police Foundation,Doctors Hospital,4.1
+Rawalpindi,Adiala Road,Shifa International Hospital,5.1
+Islamabad,Naval Anchorage,South City Hospital,3.6
+Islamabad,Naval Anchorage,Fauji Foundation Hospital,4.2
+Lahore,Gulberg,Ittefaq Hospital,4.6
+Lahore,Lalazaar Garden,Doctors Hospital,4.0
+Lahore,Lalazaar Garden,Services Hospital,2.7
+Karachi,Jamshed Road,PIMS Hospital,2.4
+Islamabad,E-7,Ittefaq Hospital,2.7
+Lahore,T & T Aabpara Housing Society,Ittefaq Hospital,2.8
+Karachi,Abul Hassan Isphani Road,Fauji Foundation Hospital,5.0
+Karachi,Abul Hassan Isphani Road,Shifa International Hospital,3.4
+Rawalpindi,Islamabad Highway,Aga Khan University Hospital,1.5
+Islamabad,F-6,PIMS Hospital,2.1
+Islamabad,F-6,Doctors Hospital,5.8
+Islamabad,D-12,Fauji Foundation Hospital,1.7
+Islamabad,D-12,Aga Khan University Hospital,4.9
+Lahore,Eden,Doctors Hospital,2.0
+Lahore,Eden,Aga Khan University Hospital,4.0
+Lahore,Architects Engineers Housing Society,Ittefaq Hospital,2.7
+Lahore,Architects Engineers Housing Society,Services Hospital,1.0
+Islamabad,Shah Allah Ditta,South City Hospital,2.7
+Islamabad,Shah Allah Ditta,Doctors Hospital,5.1
+Karachi,Defence View Society,Ittefaq Hospital,2.2
+Karachi,Defence View Society,PIMS Hospital,0.9
+Faisalabad,Nishatabad,Shifa International Hospital,4.0
+Rawalpindi,Shalley Valley,Shifa International Hospital,4.9
+Rawalpindi,Shalley Valley,Fauji Foundation Hospital,4.5
+Lahore,Canal Garden,Shifa International Hospital,4.1
+Lahore,Canal Garden,South City Hospital,4.3
+Islamabad,E-11,Aga Khan University Hospital,2.5
+Islamabad,E-11,PIMS Hospital,2.0
+Karachi,Federal B Area,South City Hospital,1.6
+Karachi,Garden West,Shifa International Hospital,1.1
+Karachi,Cantt,Doctors Hospital,5.1
+Lahore,Allama Iqbal Town,Shifa International Hospital,4.8
+Lahore,Allama Iqbal Town,Fauji Foundation Hospital,5.5
+Lahore,Johar Town,Aga Khan University Hospital,4.5
+Lahore,Samanabad,PIMS Hospital,4.4
+Lahore,Ichhra,Doctors Hospital,3.3
+Faisalabad,Al Rehmat Villas,Ittefaq Hospital,3.4
+Faisalabad,Al Rehmat Villas,Services Hospital,2.8
+Rawalpindi,Dhok Mangtal,PIMS Hospital,3.1
+Karachi,Nazimabad,Fauji Foundation Hospital,2.0
+Karachi,Nazimabad,Doctors Hospital,5.8
+Islamabad,CBR Town,Services Hospital,1.4
+Islamabad,CBR Town,Doctors Hospital,5.5
+Lahore,Raiwind Road,Ittefaq Hospital,4.4
+Islamabad,Korang Town,South City Hospital,5.2
+Islamabad,Korang Town,PIMS Hospital,3.3
+Lahore,Cavalry Ground,South City Hospital,4.5
+Karachi,DHA City Karachi,Aga Khan University Hospital,1.8
+Karachi,DHA City Karachi,Fauji Foundation Hospital,3.5
+Karachi,Navy Housing Scheme Karsaz,Fauji Foundation Hospital,2.2
+Karachi,Navy Housing Scheme Karsaz,Services Hospital,2.0
+Islamabad,PWD Housing Scheme,South City Hospital,2.6
+Rawalpindi,Lalkurti,Ittefaq Hospital,1.8
+Rawalpindi,Lalkurti,Fauji Foundation Hospital,0.8
+Rawalpindi,Airport Housing Society,Shifa International Hospital,5.1
+Rawalpindi,Airport Housing Society,PIMS Hospital,5.5
+Lahore,Park View Villas,Fauji Foundation Hospital,1.6
+Lahore,Park View Villas,Ittefaq Hospital,5.5
+Lahore,Gulshan-e-Lahore,PIMS Hospital,3.4
+Lahore,State Life Housing Society,PIMS Hospital,3.0
+Lahore,State Life Housing Society,South City Hospital,6.0
+Karachi,Liaquatabad,Ittefaq Hospital,4.1
+Lahore,Kot Lakhpat,Services Hospital,5.1
+Lahore,Kot Lakhpat,South City Hospital,2.9
+Karachi,Sea View Apartments,Ittefaq Hospital,4.6
+Rawalpindi,Kurri Road,Aga Khan University Hospital,1.0
+Lahore,EME Society,Services Hospital,3.7
+Lahore,Canal Fort II,Ittefaq Hospital,1.1
+Lahore,Canal Fort II,Aga Khan University Hospital,4.3
+Faisalabad,Millat Town,Doctors Hospital,1.9
+Faisalabad,Samanabad Road,Doctors Hospital,2.3
+Lahore,Revenue Society,Shifa International Hospital,2.7
+Lahore,Revenue Society,South City Hospital,3.8
+Lahore,Al-Jannat Housing Society - Kahna,Services Hospital,1.1
+Lahore,Al-Jannat Housing Society - Kahna,South City Hospital,5.9
+Lahore,Nasheman-e-Iqbal,Services Hospital,0.8
+Lahore,Nasheman-e-Iqbal,Fauji Foundation Hospital,2.2
+Karachi,Gulshan-e-Iqbal Town,Ittefaq Hospital,4.9
+Karachi,Gulshan-e-Iqbal Town,Doctors Hospital,4.6
+Karachi,Gulberg Town,Doctors Hospital,2.9
+Karachi,Gulberg Town,PIMS Hospital,3.5
+Islamabad,G-15,Ittefaq Hospital,3.5
+Islamabad,G-15,PIMS Hospital,1.6
+Lahore,Khayaban-e-Amin,Aga Khan University Hospital,5.6
+Lahore,Khayaban-e-Amin,South City Hospital,2.3
+Faisalabad,Samundari Road,PIMS Hospital,5.5
+Faisalabad,Samundari Road,Ittefaq Hospital,1.1
+Faisalabad,Gulshan e Madina,South City Hospital,1.0
+Faisalabad,Canal Road,PIMS Hospital,4.2
+Faisalabad,Canal Road,Ittefaq Hospital,3.2
+Lahore,Military Accounts Housing Society,Shifa International Hospital,1.6
+Islamabad,I-12,Fauji Foundation Hospital,2.0
+Islamabad,I-12,Ittefaq Hospital,1.4
+Lahore,Faisal Town,South City Hospital,0.9
+Karachi,Falcon Complex Faisal,PIMS Hospital,5.1
+Lahore,Bahria Orchard,Shifa International Hospital,5.1
+Rawalpindi,Rail View Housing Society,South City Hospital,3.1
+Rawalpindi,Rail View Housing Society,PIMS Hospital,5.5
+Rawalpindi,Tulsa Road,Services Hospital,1.9
+Rawalpindi,Tulsa Road,Doctors Hospital,4.0
+Lahore,Defence Road,Ittefaq Hospital,5.5
+Islamabad,Gulberg,Fauji Foundation Hospital,4.5
+Lahore,Islampura,Doctors Hospital,2.4
+Lahore,Lake City,Shifa International Hospital,2.2
+Lahore,Punjab Govt Employees Society,Ittefaq Hospital,4.4
+Lahore,Garhi Shahu,Fauji Foundation Hospital,3.5
+Lahore,Paragon City,Aga Khan University Hospital,1.5
+Karachi,Fazaia Housing Scheme,Shifa International Hospital,2.3
+Islamabad,Faisal Town - F-18,PIMS Hospital,1.4
+Rawalpindi,Gulraiz Housing Scheme,PIMS Hospital,2.4
+Rawalpindi,Gulraiz Housing Scheme,Services Hospital,3.3
+Lahore,Badami Bagh,PIMS Hospital,2.3
+Lahore,Badami Bagh,South City Hospital,5.9
+Karachi,Korangi Road,Aga Khan University Hospital,5.9
+Faisalabad,Khayaban Colony,Ittefaq Hospital,5.3
+Faisalabad,Hamza Villas,Services Hospital,2.6
+Faisalabad,Hamza Villas,Fauji Foundation Hospital,2.6
+Islamabad,B-17,Aga Khan University Hospital,5.1
+Islamabad,B-17,Shifa International Hospital,2.5
+Lahore,Bismillah Housing Scheme,Ittefaq Hospital,2.7
+Lahore,Bismillah Housing Scheme,Aga Khan University Hospital,3.9
+Karachi,Shah Faisal Town,South City Hospital,5.8
+Karachi,Shah Faisal Town,Doctors Hospital,3.3
+Faisalabad,Wapda City,Services Hospital,4.4
+Lahore,Hakim Town,Ittefaq Hospital,0.9
+Rawalpindi,Allahabad Road,Aga Khan University Hospital,2.9
+Karachi,Etawa Society,PIMS Hospital,3.0
+Karachi,Etawa Society,Services Hospital,5.0
+Lahore,Peco Road,Fauji Foundation Hospital,1.8
+Lahore,Hamza Town,Fauji Foundation Hospital,0.8
+Lahore,Model Town,Doctors Hospital,1.7
+Rawalpindi,Askari 14,Fauji Foundation Hospital,4.2
+Rawalpindi,Askari 14,Aga Khan University Hospital,5.8
+Faisalabad,Punjab Govt. Servants Housing Foundation,Fauji Foundation Hospital,5.0
+Faisalabad,Jaranwala,Ittefaq Hospital,2.8
+Faisalabad,Ismail Valley,Doctors Hospital,3.6
+Karachi,Clifton,Aga Khan University Hospital,2.5
+Lahore,Punjab Coop Housing Society,Services Hospital,2.9
+Lahore,Punjab Coop Housing Society,South City Hospital,5.5
+Rawalpindi,Rawat,Doctors Hospital,5.5
+Rawalpindi,Rawat,South City Hospital,4.6
+Faisalabad,Madina Town,Aga Khan University Hospital,3.8
+Rawalpindi,Satellite Town,Ittefaq Hospital,4.4
+Lahore,Bedian Road,PIMS Hospital,4.8
+Lahore,Nishtar Colony,Ittefaq Hospital,1.8
+Lahore,Nishtar Colony,Shifa International Hospital,2.4
+Rawalpindi,Westridge,Fauji Foundation Hospital,4.1
+Rawalpindi,Chaklala Scheme,Fauji Foundation Hospital,3.3
+Islamabad,FECHS,Services Hospital,3.7
+Islamabad,FECHS,Doctors Hospital,1.0
+Rawalpindi,Khayaban-e-Sir Syed,Aga Khan University Hospital,3.6
+Rawalpindi,Khayaban-e-Sir Syed,Ittefaq Hospital,0.8
+Karachi,Mehmoodabad,Doctors Hospital,4.9
+Lahore,Valencia Housing Society,Shifa International Hospital,3.4
+Lahore,Valencia Housing Society,Doctors Hospital,3.4
+Islamabad,Kashmir Highway,Aga Khan University Hospital,4.6
+Islamabad,Kashmir Highway,Doctors Hospital,0.8
+Lahore,Hassan Town,South City Hospital,2.8
+Karachi,Punjab Colony,Shifa International Hospital,4.6
+Lahore,Cantt,Doctors Hospital,4.2
+Lahore,Cantt,PIMS Hospital,2.7
+Karachi,Khayaban-e-Ittehad Road,Doctors Hospital,2.0
+Rawalpindi,Gulzar-e-Quaid Housing Society,Ittefaq Hospital,4.3
+Rawalpindi,New Lalazar,Ittefaq Hospital,2.0
+Karachi,Khalid Bin Walid Road,Doctors Hospital,5.6
+Islamabad,Islamabad Highway,Doctors Hospital,3.7
+Islamabad,Islamabad Highway,South City Hospital,5.0
+Faisalabad,Al Noor Garden,South City Hospital,3.7
+Lahore,Upper Mall,PIMS Hospital,3.4
+Islamabad,Margalla Town,Fauji Foundation Hospital,2.5
+Faisalabad,Ayub Colony,Fauji Foundation Hospital,2.5
+Faisalabad,Ayub Colony,Shifa International Hospital,3.3
+Karachi,Sindh Industrial Trading Estate (SITE),South City Hospital,1.0
+Karachi,Sindh Industrial Trading Estate (SITE),Fauji Foundation Hospital,3.7
+Rawalpindi,Media Town,Fauji Foundation Hospital,5.2
+Rawalpindi,Media Town,Services Hospital,2.1
+Rawalpindi,Muslim Town,PIMS Hospital,2.9
+Lahore,Gulshan-e-Ravi,South City Hospital,2.4
+Lahore,Al-Raziq Garden,Shifa International Hospital,1.9
+Lahore,Mateen Avenue,Doctors Hospital,1.2
+Lahore,Sami Town,Ittefaq Hospital,4.3
+Lahore,Sami Town,Services Hospital,2.6
+Lahore,Ghous Garden,Fauji Foundation Hospital,3.7
+Lahore,Ittifaq Town,Fauji Foundation Hospital,5.0
+Faisalabad,Makkah Garden,Services Hospital,3.5
+Faisalabad,Makkah Garden,South City Hospital,5.7
+Lahore,Nawab Town,Shifa International Hospital,4.0
+Lahore,Islamia Park,Aga Khan University Hospital,5.9
+Lahore,Islamia Park,PIMS Hospital,3.4
+Islamabad,G-10,Aga Khan University Hospital,2.1
+Islamabad,G-10,Shifa International Hospital,2.2
+Rawalpindi,Dhok Sayedan Road,Services Hospital,1.5
+Rawalpindi,Dhok Sayedan Road,Ittefaq Hospital,2.4
+Lahore,Abdul Sattar Edhi Road,Shifa International Hospital,4.8
+Lahore,Abdul Sattar Edhi Road,Ittefaq Hospital,3.1
+Lahore,Lahore Medical Housing Society,Doctors Hospital,2.6
+Lahore,Lahore Medical Housing Society,Aga Khan University Hospital,5.6
+Faisalabad,Eden Gardens,Ittefaq Hospital,4.4
+Islamabad,Jhangi Syedan,Fauji Foundation Hospital,5.2
+Lahore,Mughalpura,Ittefaq Hospital,4.9
+Lahore,Tricon Village,Ittefaq Hospital,2.5
+Lahore,Tricon Village,Aga Khan University Hospital,3.0
+Rawalpindi,Holy Family Road,Shifa International Hospital,2.9
+Lahore,Kahna,Fauji Foundation Hospital,1.1
+Lahore,Kahna,PIMS Hospital,5.9
+Faisalabad,Jhang Road,South City Hospital,1.1
+Islamabad,Madina Town,Ittefaq Hospital,2.9
+Islamabad,Madina Town,Shifa International Hospital,4.5
+Lahore,Allama Iqbal Road,South City Hospital,3.5
+Lahore,Allama Iqbal Road,Ittefaq Hospital,0.8
+Rawalpindi,Farooq-e-Azam Road,Services Hospital,4.5
+Lahore,Tajpura,Fauji Foundation Hospital,4.5
+Lahore,Tajpura,Shifa International Hospital,2.8
+Karachi,New Karachi,Doctors Hospital,4.7
+Karachi,New Karachi,Shifa International Hospital,2.8
+Karachi,Orangi Town,PIMS Hospital,2.9
+Karachi,KDA Scheme 1,Shifa International Hospital,1.3
+Lahore,Township,Aga Khan University Hospital,5.9
+Lahore,Township,Services Hospital,1.8
