@@ -1,0 +1,374 @@
+[
+  {
+    "conversation_id": "buyer_full_flow",
+    "final_intent": "booking",
+    "appointment_status": "booked",
+    "trace": [
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history"
+        ]
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.27,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history",
+          "budget",
+          "city",
+          "location_hint",
+          "bedrooms",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "recommendation",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 35.77,
+        "intent_at_entry": "buyer",
+        "update_keys": [
+          "conversation_history",
+          "tool_outputs"
+        ]
+      },
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": "buyer",
+        "update_keys": []
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.27,
+        "intent_at_entry": "buyer",
+        "update_keys": [
+          "conversation_history",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "booking",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 13.08,
+        "intent_at_entry": "booking",
+        "update_keys": [
+          "conversation_history",
+          "appointment_id",
+          "appointment_status"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "rental_reschedule_cancel",
+    "final_intent": "cancel",
+    "appointment_status": "cancelled",
+    "trace": [
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history"
+        ]
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.08,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history",
+          "city",
+          "bedrooms",
+          "purpose",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "recommendation",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 8.11,
+        "intent_at_entry": "rental",
+        "update_keys": [
+          "conversation_history",
+          "tool_outputs"
+        ]
+      },
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": "rental",
+        "update_keys": []
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.07,
+        "intent_at_entry": "rental",
+        "update_keys": [
+          "conversation_history",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "booking",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 10.82,
+        "intent_at_entry": "booking",
+        "update_keys": [
+          "conversation_history",
+          "appointment_id",
+          "appointment_status"
+        ]
+      },
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": "booking",
+        "update_keys": []
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.03,
+        "intent_at_entry": "booking",
+        "update_keys": [
+          "conversation_history",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "rescheduling",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 10.22,
+        "intent_at_entry": "reschedule",
+        "update_keys": [
+          "conversation_history",
+          "appointment_status"
+        ]
+      },
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": "reschedule",
+        "update_keys": []
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.03,
+        "intent_at_entry": "reschedule",
+        "update_keys": [
+          "conversation_history",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "cancellation",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 8.87,
+        "intent_at_entry": "cancel",
+        "update_keys": [
+          "conversation_history",
+          "appointment_status"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "vague_then_clarify",
+    "final_intent": "unclear",
+    "appointment_status": "none",
+    "trace": [
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history"
+        ]
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.04,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "clarification",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": "buyer",
+        "update_keys": [
+          "conversation_history"
+        ]
+      },
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": "buyer",
+        "update_keys": []
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.11,
+        "intent_at_entry": "buyer",
+        "update_keys": [
+          "conversation_history",
+          "city",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "clarification",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": "unclear",
+        "update_keys": [
+          "conversation_history"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "impossible_budget",
+    "final_intent": "buyer",
+    "appointment_status": "none",
+    "trace": [
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history"
+        ]
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.06,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history",
+          "budget",
+          "city",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "recommendation",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 5.41,
+        "intent_at_entry": "buyer",
+        "update_keys": [
+          "conversation_history",
+          "tool_outputs"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "faq_then_goodbye",
+    "final_intent": "goodbye",
+    "appointment_status": "none",
+    "trace": [
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history"
+        ]
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:01",
+        "elapsed_ms": 0.08,
+        "intent_at_entry": null,
+        "update_keys": [
+          "conversation_history",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "rag",
+        "timestamp": "2026-09-26T01:04:02",
+        "elapsed_ms": 1434.16,
+        "intent_at_entry": "faq",
+        "update_keys": [
+          "conversation_history"
+        ]
+      },
+      {
+        "node": "greeting",
+        "timestamp": "2026-09-26T01:04:02",
+        "elapsed_ms": 0.01,
+        "intent_at_entry": "faq",
+        "update_keys": []
+      },
+      {
+        "node": "intent_detection",
+        "timestamp": "2026-09-26T01:04:02",
+        "elapsed_ms": 0.05,
+        "intent_at_entry": "faq",
+        "update_keys": [
+          "conversation_history",
+          "intent",
+          "needs_clarification",
+          "clarification_reason"
+        ]
+      },
+      {
+        "node": "goodbye",
+        "timestamp": "2026-09-26T01:04:02",
+        "elapsed_ms": 0.0,
+        "intent_at_entry": "goodbye",
+        "update_keys": [
+          "conversation_history"
+        ]
+      }
+    ]
+  }
+]
